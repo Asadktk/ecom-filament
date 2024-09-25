@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'c6ec2155e0583e99086445793d673f054dd92cbc',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '21a75250fbc3564a9ba7fa25f2ec35c722e04134',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -517,6 +517,15 @@
                 0 => 'v11.22.0',
             ),
         ),
+        'jantinnerezo/livewire-alert' => array(
+            'pretty_version' => 'v3.0.2',
+            'version' => '3.0.2.0',
+            'reference' => '24281639258daf80fe0a585f55b7490a88fd68ef',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jantinnerezo/livewire-alert',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'jean85/pretty-package-versions' => array(
             'pretty_version' => '2.0.6',
             'version' => '2.0.6.0',
@@ -551,9 +560,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'c6ec2155e0583e99086445793d673f054dd92cbc',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '21a75250fbc3564a9ba7fa25f2ec35c722e04134',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

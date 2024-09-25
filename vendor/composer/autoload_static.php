@@ -174,6 +174,7 @@ class ComposerStaticInit151cae011cca7ac3905bd4a1e10d86fc
         'J' => 
         array (
             'Jean85\\' => 7,
+            'Jantinnerezo\\LivewireAlert\\' => 27,
         ),
         'I' => 
         array (
@@ -568,6 +569,10 @@ class ComposerStaticInit151cae011cca7ac3905bd4a1e10d86fc
         array (
             0 => __DIR__ . '/..' . '/jean85/pretty-package-versions/src',
         ),
+        'Jantinnerezo\\LivewireAlert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jantinnerezo/livewire-alert/src',
+        ),
         'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Macroable',
@@ -759,7 +764,25 @@ class ComposerStaticInit151cae011cca7ac3905bd4a1e10d86fc
         'App\\Filament\\Resources\\UserResource\\Pages\\ListUsers' => __DIR__ . '/../..' . '/app/Filament/Resources/UserResource/Pages/ListUsers.php',
         'App\\Filament\\Resources\\UserResource\\RelationManagers\\OrdersRelationManager' => __DIR__ . '/../..' . '/app/Filament/Resources/UserResource/RelationManagers/OrdersRelationManager.php',
         'App\\Filament\\Widgets\\LatestOrders' => __DIR__ . '/../..' . '/app/Filament/Widgets/LatestOrders.php',
+        'App\\Helpers\\CartManagement' => __DIR__ . '/../..' . '/app/Helpers/CartManagement.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Livewire\\Auth\\ForgotPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/ForgotPage.php',
+        'App\\Livewire\\Auth\\ForgotPasswordPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/ForgotPasswordPage.php',
+        'App\\Livewire\\Auth\\LoginPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/LoginPage.php',
+        'App\\Livewire\\Auth\\RegisterPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/RegisterPage.php',
+        'App\\Livewire\\Auth\\ResetPasswordPage' => __DIR__ . '/../..' . '/app/Livewire/Auth/ResetPasswordPage.php',
+        'App\\Livewire\\CancelPage' => __DIR__ . '/../..' . '/app/Livewire/CancelPage.php',
+        'App\\Livewire\\CartPage' => __DIR__ . '/../..' . '/app/Livewire/CartPage.php',
+        'App\\Livewire\\CategoriesPage' => __DIR__ . '/../..' . '/app/Livewire/CategoriesPage.php',
+        'App\\Livewire\\CheckOutPage' => __DIR__ . '/../..' . '/app/Livewire/CheckOutPage.php',
+        'App\\Livewire\\HomePage' => __DIR__ . '/../..' . '/app/Livewire/HomePage.php',
+        'App\\Livewire\\MyOrdersPage' => __DIR__ . '/../..' . '/app/Livewire/MyOrdersPage.php',
+        'App\\Livewire\\OrderDetailPage' => __DIR__ . '/../..' . '/app/Livewire/OrderDetailPage.php',
+        'App\\Livewire\\Partials\\Footer' => __DIR__ . '/../..' . '/app/Livewire/Partials/Footer.php',
+        'App\\Livewire\\Partials\\Navbar' => __DIR__ . '/../..' . '/app/Livewire/Partials/Navbar.php',
+        'App\\Livewire\\ProductDetailPage' => __DIR__ . '/../..' . '/app/Livewire/ProductDetailPage.php',
+        'App\\Livewire\\ProductsPage' => __DIR__ . '/../..' . '/app/Livewire/ProductsPage.php',
+        'App\\Livewire\\SuccessPage' => __DIR__ . '/../..' . '/app/Livewire/SuccessPage.php',
         'App\\Models\\Address' => __DIR__ . '/../..' . '/app/Models/Address.php',
         'App\\Models\\Brand' => __DIR__ . '/../..' . '/app/Models/Brand.php',
         'App\\Models\\Category' => __DIR__ . '/../..' . '/app/Models/Category.php',
@@ -4334,6 +4357,9 @@ class ComposerStaticInit151cae011cca7ac3905bd4a1e10d86fc
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'Jantinnerezo\\LivewireAlert\\Exceptions\\AlertException' => __DIR__ . '/..' . '/jantinnerezo/livewire-alert/src/Exceptions/AlertException.php',
+        'Jantinnerezo\\LivewireAlert\\LivewireAlert' => __DIR__ . '/..' . '/jantinnerezo/livewire-alert/src/LivewireAlert.php',
+        'Jantinnerezo\\LivewireAlert\\LivewireAlertServiceProvider' => __DIR__ . '/..' . '/jantinnerezo/livewire-alert/src/LivewireAlertServiceProvider.php',
         'Jean85\\Exception\\ProvidedPackageException' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/Exception/ProvidedPackageException.php',
         'Jean85\\Exception\\ReplacedPackageException' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/Exception/ReplacedPackageException.php',
         'Jean85\\Exception\\VersionMissingExceptionInterface' => __DIR__ . '/..' . '/jean85/pretty-package-versions/src/Exception/VersionMissingExceptionInterface.php',
